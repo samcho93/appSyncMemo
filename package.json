@@ -1,0 +1,11 @@
+{
+  "name": "appsyncmemo",
+  "version": "1.0.0",
+  "description": "memoSync 모바일 웹앱 (PWA) - Google Drive 폴더로 데스크탑과 메모 동기화",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "serve": "npx --yes http-server . -p 8080 -c-1"
+  }
+}
